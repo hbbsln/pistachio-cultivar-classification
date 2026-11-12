@@ -1,0 +1,51 @@
+﻿strategy_A,strategy_B,seed,both_correct,b_A_correct_B_wrong,c_A_wrong_B_correct,both_wrong,statistic,p_exact,p_holm
+"Early fusion, equal weights",Single CNN (val-selected),42,311,6,1,1,1.0,0.125,1.0
+"Early fusion, equal weights",Single CNN (val-selected),0,314,3,1,3,1.0,0.625,1.0
+"Early fusion, equal weights",Single CNN (val-selected),123,318,1,2,0,1.0,1.0,1.0
+"Early fusion, equal weights",Single CNN (val-selected),7,312,4,3,1,3.0,1.0,1.0
+"Early fusion, equal weights",Single CNN (val-selected),2025,312,4,3,0,3.0,1.0,1.0
+"Early fusion, dimension-normalized",Single CNN (val-selected),42,311,6,1,1,1.0,0.125,1.0
+"Early fusion, dimension-normalized",Single CNN (val-selected),0,314,3,1,3,1.0,0.625,1.0
+"Early fusion, dimension-normalized",Single CNN (val-selected),123,318,1,2,0,1.0,1.0,1.0
+"Early fusion, dimension-normalized",Single CNN (val-selected),7,313,4,2,1,2.0,0.6875,1.0
+"Early fusion, dimension-normalized",Single CNN (val-selected),2025,313,4,2,0,2.0,0.6875,1.0
+"Early fusion, val-weighted (tau=1)",Single CNN (val-selected),42,311,6,1,1,1.0,0.125,1.0
+"Early fusion, val-weighted (tau=1)",Single CNN (val-selected),0,314,3,1,3,1.0,0.625,1.0
+"Early fusion, val-weighted (tau=1)",Single CNN (val-selected),123,318,1,2,0,1.0,1.0,1.0
+"Early fusion, val-weighted (tau=1)",Single CNN (val-selected),7,312,4,3,1,3.0,1.0,1.0
+"Early fusion, val-weighted (tau=1)",Single CNN (val-selected),2025,312,4,3,0,3.0,1.0,1.0
+"Early fusion, val-weighted (tau=0.1)",Single CNN (val-selected),42,311,6,1,1,1.0,0.125,1.0
+"Early fusion, val-weighted (tau=0.1)",Single CNN (val-selected),0,314,3,1,3,1.0,0.625,1.0
+"Early fusion, val-weighted (tau=0.1)",Single CNN (val-selected),123,318,1,2,0,1.0,1.0,1.0
+"Early fusion, val-weighted (tau=0.1)",Single CNN (val-selected),7,312,4,3,1,3.0,1.0,1.0
+"Early fusion, val-weighted (tau=0.1)",Single CNN (val-selected),2025,313,4,2,0,2.0,0.6875,1.0
+"Early fusion, val-weighted (tau=0.05)",Single CNN (val-selected),42,311,6,1,1,1.0,0.125,1.0
+"Early fusion, val-weighted (tau=0.05)",Single CNN (val-selected),0,314,3,1,3,1.0,0.625,1.0
+"Early fusion, val-weighted (tau=0.05)",Single CNN (val-selected),123,319,1,1,0,1.0,1.0,1.0
+"Early fusion, val-weighted (tau=0.05)",Single CNN (val-selected),7,312,4,3,1,3.0,1.0,1.0
+"Early fusion, val-weighted (tau=0.05)",Single CNN (val-selected),2025,314,4,1,0,1.0,0.375,1.0
+"Early fusion, val-weighted (tau=0.02)",Single CNN (val-selected),42,311,6,1,1,1.0,0.125,1.0
+"Early fusion, val-weighted (tau=0.02)",Single CNN (val-selected),0,315,2,0,4,0.0,0.5,1.0
+"Early fusion, val-weighted (tau=0.02)",Single CNN (val-selected),123,319,1,1,0,1.0,1.0,1.0
+"Early fusion, val-weighted (tau=0.02)",Single CNN (val-selected),7,313,4,2,1,2.0,0.6875,1.0
+"Early fusion, val-weighted (tau=0.02)",Single CNN (val-selected),2025,314,4,1,0,1.0,0.375,1.0
+"Early fusion, val-weighted (tau=0.01)",Single CNN (val-selected),42,311,4,1,3,1.0,0.375,1.0
+"Early fusion, val-weighted (tau=0.01)",Single CNN (val-selected),0,315,0,0,6,0.0,1.0,1.0
+"Early fusion, val-weighted (tau=0.01)",Single CNN (val-selected),123,320,0,0,1,0.0,1.0,1.0
+"Early fusion, val-weighted (tau=0.01)",Single CNN (val-selected),7,313,4,2,1,2.0,0.6875,1.0
+"Early fusion, val-weighted (tau=0.01)",Single CNN (val-selected),2025,314,4,1,0,1.0,0.375,1.0
+"Early fusion, val-selected subset",Single CNN (val-selected),42,311,4,1,3,1.0,0.375,1.0
+"Early fusion, val-selected subset",Single CNN (val-selected),0,314,3,1,3,1.0,0.625,1.0
+"Early fusion, val-selected subset",Single CNN (val-selected),123,318,1,2,0,1.0,1.0,1.0
+"Early fusion, val-selected subset",Single CNN (val-selected),7,312,4,3,1,3.0,1.0,1.0
+"Early fusion, val-selected subset",Single CNN (val-selected),2025,308,4,7,0,4.0,0.548828125,1.0
+"Late fusion, equal weights",Single CNN (val-selected),42,312,6,0,1,0.0,0.03125,1.0
+"Late fusion, equal weights",Single CNN (val-selected),0,314,3,1,3,1.0,0.625,1.0
+"Late fusion, equal weights",Single CNN (val-selected),123,320,1,0,0,0.0,1.0,1.0
+"Late fusion, equal weights",Single CNN (val-selected),7,312,4,3,1,3.0,1.0,1.0
+"Late fusion, equal weights",Single CNN (val-selected),2025,314,3,1,1,1.0,0.625,1.0
+"Late fusion, val-weighted (tau=0.1)",Single CNN (val-selected),42,312,6,0,1,0.0,0.03125,1.0
+"Late fusion, val-weighted (tau=0.1)",Single CNN (val-selected),0,314,3,1,3,1.0,0.625,1.0
+"Late fusion, val-weighted (tau=0.1)",Single CNN (val-selected),123,320,1,0,0,0.0,1.0,1.0
+"Late fusion, val-weighted (tau=0.1)",Single CNN (val-selected),7,312,4,3,1,3.0,1.0,1.0
+"Late fusion, val-weighted (tau=0.1)",Single CNN (val-selected),2025,315,3,0,1,0.0,0.25,1.0

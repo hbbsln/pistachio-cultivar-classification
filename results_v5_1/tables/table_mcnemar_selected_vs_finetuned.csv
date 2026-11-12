@@ -1,0 +1,16 @@
+﻿model_A,model_B,seed,both_correct,b_A_correct_B_wrong,c_A_wrong_B_correct,both_wrong,statistic,p_exact,p_holm
+RGB+EfficientNetB0+SVM,Fine-tuned MobileNetV2 (end-to-end),42,311,1,7,0,1.0,0.0703125,0.875
+RGB+EfficientNetB0+SVM,Fine-tuned MobileNetV2 (end-to-end),0,314,1,4,2,1.0,0.375,1.0
+RGB+EfficientNetB0+SVM,Fine-tuned MobileNetV2 (end-to-end),123,320,0,1,0,0.0,1.0,1.0
+RGB+EfficientNetB0+SVM,Fine-tuned MobileNetV2 (end-to-end),7,314,1,5,0,1.0,0.21875,1.0
+RGB+EfficientNetB0+SVM,Fine-tuned MobileNetV2 (end-to-end),2025,314,1,4,0,1.0,0.375,1.0
+RGB+EfficientNetB0+SVM,Fine-tuned EfficientNetB0 (end-to-end),42,311,1,7,0,1.0,0.0703125,0.875
+RGB+EfficientNetB0+SVM,Fine-tuned EfficientNetB0 (end-to-end),0,314,1,6,0,1.0,0.125,1.0
+RGB+EfficientNetB0+SVM,Fine-tuned EfficientNetB0 (end-to-end),123,314,6,1,0,1.0,0.125,1.0
+RGB+EfficientNetB0+SVM,Fine-tuned EfficientNetB0 (end-to-end),7,312,3,5,0,3.0,0.7265625,1.0
+RGB+EfficientNetB0+SVM,Fine-tuned EfficientNetB0 (end-to-end),2025,312,3,4,0,3.0,1.0,1.0
+RGB+EfficientNetB0+SVM,Fine-tuned ResNet50 (end-to-end),42,312,0,7,0,0.0,0.015625,0.234375
+RGB+EfficientNetB0+SVM,Fine-tuned ResNet50 (end-to-end),0,315,0,5,1,0.0,0.0625,0.875
+RGB+EfficientNetB0+SVM,Fine-tuned ResNet50 (end-to-end),123,318,2,1,0,1.0,1.0,1.0
+RGB+EfficientNetB0+SVM,Fine-tuned ResNet50 (end-to-end),7,315,0,5,0,0.0,0.0625,0.875
+RGB+EfficientNetB0+SVM,Fine-tuned ResNet50 (end-to-end),2025,308,7,4,0,4.0,0.548828125,1.0

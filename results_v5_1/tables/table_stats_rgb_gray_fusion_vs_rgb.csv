@@ -1,0 +1,10 @@
+﻿fusion_model,reference,diff_pp,ci_low_pp,ci_high_pp,t,p,p_holm
+RGB+Gray fusion+ResNet50+SVM,RGB+ResNet50+SVM,0.19708,-0.21953,0.61369,0.97635,0.33863,1.0
+RGB+Gray fusion+ResNet50+RF,RGB+ResNet50+RF,2.24155,0.37522,4.10787,2.47884,0.0206,0.1854
+RGB+Gray fusion+ResNet50+KNN,RGB+ResNet50+KNN,0.92892,-0.48081,2.33864,1.35998,0.18648,1.0
+RGB+Gray fusion+EfficientNetB0+SVM,RGB+EfficientNetB0+SVM,0.29482,-0.3126,0.90224,1.00173,0.32647,1.0
+RGB+Gray fusion+EfficientNetB0+RF,RGB+EfficientNetB0+RF,0.14205,-2.41655,2.70065,0.11458,0.90973,1.0
+RGB+Gray fusion+EfficientNetB0+KNN,RGB+EfficientNetB0+KNN,0.05482,-0.90593,1.01558,0.11777,0.90723,1.0
+RGB+Gray fusion+MobileNetV2+SVM,RGB+MobileNetV2+SVM,0.42689,-0.10673,0.96051,1.65111,0.11174,0.89394
+RGB+Gray fusion+MobileNetV2+RF,RGB+MobileNetV2+RF,0.73171,-1.30569,2.7691,0.74123,0.46575,1.0
+RGB+Gray fusion+MobileNetV2+KNN,RGB+MobileNetV2+KNN,0.3947,-0.90221,1.69161,0.62813,0.53585,1.0

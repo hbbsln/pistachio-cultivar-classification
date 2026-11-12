@@ -1,0 +1,4 @@
+CNN,n_train,hybrid_feature_extraction_s,hybrid_scaler_pca_svm_fit_s,hybrid_total_s,finetune_trainable_params_M,finetune_epoch_s,finetune_epochs,finetune_total_s_est,finetune_over_hybrid_ratio
+EfficientNetB0,1504,3.229,0.541,3.771,4.01,17.656,15,264.842,70.239
+MobileNetV2,1504,2.677,0.567,3.244,2.226,13.853,15,207.793,64.062
+ResNet50,1504,6.722,0.782,7.504,23.512,19.089,15,286.332,38.158

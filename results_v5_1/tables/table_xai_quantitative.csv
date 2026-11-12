@@ -1,0 +1,7 @@
+﻿method,group,n,frac_inside_mask_mean,frac_inside_mask_sd,mask_area_frac_mean,pointing_game_%,wilcoxon_p_(inside>area)
+Occlusion — RGB+EfficientNetB0+SVM (deployed hybrid pipeline),all,319,0.4846,0.2491,0.2339,74.2947,0.0
+Occlusion — RGB+EfficientNetB0+SVM (deployed hybrid pipeline),correct,312,0.489,0.2461,0.2335,75.0,0.0
+Occlusion — RGB+EfficientNetB0+SVM (deployed hybrid pipeline),misclassified,7,0.2861,0.319,0.2499,42.8571,0.5859
+Grad-CAM — fine-tuned EfficientNetB0 (end-to-end),all,319,0.6197,0.1266,0.2339,98.4326,0.0
+Grad-CAM — fine-tuned EfficientNetB0 (end-to-end),correct,318,0.6208,0.1254,0.234,98.4277,0.0
+Grad-CAM — fine-tuned EfficientNetB0 (end-to-end),misclassified,1,0.2853,,0.2026,100.0,

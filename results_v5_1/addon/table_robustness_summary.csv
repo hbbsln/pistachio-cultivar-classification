@@ -1,0 +1,69 @@
+﻿model,group,perturbation,acc_mean,acc_sd,drop_pp_mean,drop_pp_sd,mcc_mean,n_seeds
+Hybrid RGB+EfficientNetB0+SVM,Reference,Original,98.562,0.72,0.0,0.0,0.971,5
+Hybrid RGB+EfficientNetB0+SVM,Illumination,Brightness −40 %,96.375,0.952,2.187,0.963,0.928,5
+Hybrid RGB+EfficientNetB0+SVM,Illumination,Brightness −20 %,97.813,0.696,0.749,0.472,0.956,5
+Hybrid RGB+EfficientNetB0+SVM,Illumination,Brightness +20 %,95.064,1.284,3.497,1.266,0.903,5
+Hybrid RGB+EfficientNetB0+SVM,Illumination,Brightness +40 %,78.067,4.043,20.495,3.964,0.559,5
+Hybrid RGB+EfficientNetB0+SVM,Illumination,Contrast −30 %,96.75,0.952,1.812,0.778,0.936,5
+Hybrid RGB+EfficientNetB0+SVM,Illumination,Contrast +30 %,92.69,1.879,5.872,1.799,0.861,5
+Hybrid RGB+EfficientNetB0+SVM,Color,"Warm color cast (R+10 %, B−10 %)",97.625,0.897,0.937,0.582,0.953,5
+Hybrid RGB+EfficientNetB0+SVM,Color,"Cool color cast (R−10 %, B+10 %)",94.566,1.706,3.996,1.934,0.896,5
+Hybrid RGB+EfficientNetB0+SVM,Camera,Gaussian blur (σ = 1 px),90.188,2.057,8.374,2.688,0.807,5
+Hybrid RGB+EfficientNetB0+SVM,Camera,Gaussian blur (σ = 2 px),60.434,1.478,38.127,1.505,0.192,5
+Hybrid RGB+EfficientNetB0+SVM,Camera,Gaussian noise (σ = 10),50.376,1.863,48.186,2.18,0.234,5
+Hybrid RGB+EfficientNetB0+SVM,Camera,JPEG quality 30,73.499,1.214,25.062,1.436,0.504,5
+Hybrid RGB+EfficientNetB0+SVM,Orientation,Rotation 90°,93.438,3.101,5.124,2.792,0.876,5
+Hybrid RGB+EfficientNetB0+SVM,Orientation,Rotation 180°,99.0,0.559,-0.439,0.648,0.98,5
+Hybrid RGB+EfficientNetB0+SVM,Background,Gray background (128),92.69,1.537,5.871,1.597,0.858,5
+Hybrid RGB+EfficientNetB0+SVM,Background,White background (255),91.253,2.045,7.308,2.168,0.825,5
+Fine-tuned MobileNetV2,Reference,Original,99.625,0.341,0.0,0.0,0.992,5
+Fine-tuned MobileNetV2,Illumination,Brightness −40 %,99.376,0.623,0.25,0.342,0.987,5
+Fine-tuned MobileNetV2,Illumination,Brightness −20 %,99.625,0.407,0.0,0.222,0.992,5
+Fine-tuned MobileNetV2,Illumination,Brightness +20 %,97.002,1.501,2.623,1.294,0.94,5
+Fine-tuned MobileNetV2,Illumination,Brightness +40 %,79.633,4.337,19.992,4.165,0.587,5
+Fine-tuned MobileNetV2,Illumination,Contrast −30 %,99.062,0.493,0.563,0.408,0.981,5
+Fine-tuned MobileNetV2,Illumination,Contrast +30 %,96.503,2.383,3.122,2.133,0.929,5
+Fine-tuned MobileNetV2,Color,"Warm color cast (R+10 %, B−10 %)",97.19,0.98,2.436,1.106,0.944,5
+Fine-tuned MobileNetV2,Color,"Cool color cast (R−10 %, B+10 %)",72.128,14.067,27.497,14.227,0.564,5
+Fine-tuned MobileNetV2,Camera,Gaussian blur (σ = 1 px),93.122,3.214,6.503,3.3,0.865,5
+Fine-tuned MobileNetV2,Camera,Gaussian blur (σ = 2 px),62.548,8.149,37.078,8.419,0.187,5
+Fine-tuned MobileNetV2,Camera,Gaussian noise (σ = 10),43.253,2.017,56.372,2.084,0.037,5
+Fine-tuned MobileNetV2,Camera,JPEG quality 30,64.991,4.519,34.634,4.655,0.31,5
+Fine-tuned MobileNetV2,Orientation,Rotation 90°,96.501,2.058,3.124,1.748,0.932,5
+Fine-tuned MobileNetV2,Orientation,Rotation 180°,99.563,0.472,0.062,0.261,0.991,5
+Fine-tuned MobileNetV2,Background,Gray background (128),98.501,1.314,1.124,1.318,0.97,5
+Fine-tuned MobileNetV2,Background,White background (255),82.75,7.577,16.875,7.693,0.674,5
+Fine-tuned EfficientNetB0,Reference,Original,99.126,0.638,0.0,0.0,0.982,5
+Fine-tuned EfficientNetB0,Illumination,Brightness −40 %,98.313,0.471,0.813,0.281,0.966,5
+Fine-tuned EfficientNetB0,Illumination,Brightness −20 %,98.687,0.513,0.438,0.524,0.973,5
+Fine-tuned EfficientNetB0,Illumination,Brightness +20 %,96.813,0.808,2.313,1.337,0.936,5
+Fine-tuned EfficientNetB0,Illumination,Brightness +40 %,78.949,5.531,20.176,5.561,0.577,5
+Fine-tuned EfficientNetB0,Illumination,Contrast −30 %,97.938,1.179,1.187,0.949,0.959,5
+Fine-tuned EfficientNetB0,Illumination,Contrast +30 %,95.313,1.432,3.813,1.969,0.907,5
+Fine-tuned EfficientNetB0,Color,"Warm color cast (R+10 %, B−10 %)",96.439,1.175,2.687,0.564,0.93,5
+Fine-tuned EfficientNetB0,Color,"Cool color cast (R−10 %, B+10 %)",84.441,5.055,14.684,5.43,0.732,5
+Fine-tuned EfficientNetB0,Camera,Gaussian blur (σ = 1 px),97.372,1.58,1.753,1.85,0.947,5
+Fine-tuned EfficientNetB0,Camera,Gaussian blur (σ = 2 px),62.004,4.162,37.122,4.234,0.219,5
+Fine-tuned EfficientNetB0,Camera,Gaussian noise (σ = 10),54.799,9.382,44.327,9.729,0.047,5
+Fine-tuned EfficientNetB0,Camera,JPEG quality 30,77.575,6.012,21.55,5.788,0.579,5
+Fine-tuned EfficientNetB0,Orientation,Rotation 90°,97.749,0.926,1.376,1.076,0.955,5
+Fine-tuned EfficientNetB0,Orientation,Rotation 180°,99.062,0.222,0.063,0.677,0.981,5
+Fine-tuned EfficientNetB0,Background,Gray background (128),90.269,8.13,8.856,8.037,0.815,5
+Fine-tuned EfficientNetB0,Background,White background (255),76.747,2.973,22.378,3.361,0.566,5
+Fine-tuned ResNet50,Reference,Original,99.374,0.914,0.0,0.0,0.987,5
+Fine-tuned ResNet50,Illumination,Brightness −40 %,97.562,1.162,1.813,0.408,0.952,5
+Fine-tuned ResNet50,Illumination,Brightness −20 %,99.124,0.977,0.25,0.14,0.982,5
+Fine-tuned ResNet50,Illumination,Brightness +20 %,95.625,2.146,3.749,1.447,0.912,5
+Fine-tuned ResNet50,Illumination,Brightness +40 %,75.569,7.94,23.805,8.304,0.518,5
+Fine-tuned ResNet50,Illumination,Contrast −30 %,98.812,1.299,0.562,0.513,0.976,5
+Fine-tuned ResNet50,Illumination,Contrast +30 %,93.999,2.272,5.375,1.892,0.88,5
+Fine-tuned ResNet50,Color,"Warm color cast (R+10 %, B−10 %)",89.175,6.132,10.199,5.808,0.809,5
+Fine-tuned ResNet50,Color,"Cool color cast (R−10 %, B+10 %)",87.235,12.059,12.14,11.282,0.783,5
+Fine-tuned ResNet50,Camera,Gaussian blur (σ = 1 px),94.692,5.254,4.682,5.016,0.896,5
+Fine-tuned ResNet50,Camera,Gaussian blur (σ = 2 px),77.775,12.062,21.599,12.346,0.556,5
+Fine-tuned ResNet50,Camera,Gaussian noise (σ = 10),42.876,1.05,56.498,1.352,0.038,5
+Fine-tuned ResNet50,Camera,JPEG quality 30,82.137,6.315,17.237,6.781,0.66,5
+Fine-tuned ResNet50,Orientation,Rotation 90°,97.125,1.615,2.249,2.292,0.944,5
+Fine-tuned ResNet50,Orientation,Rotation 180°,99.812,0.171,-0.438,0.875,0.996,5
+Fine-tuned ResNet50,Background,Gray background (128),97.685,1.768,1.69,2.002,0.954,5
+Fine-tuned ResNet50,Background,White background (255),72.831,8.382,26.543,8.558,0.473,5

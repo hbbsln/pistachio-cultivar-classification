@@ -1,0 +1,7 @@
+﻿cnn,modality,raw_dim,pca_dim_mean,pca_dim_sd,pca_dim_min,pca_dim_max
+EfficientNetB0,Grayscale,1280,392.6,1.4,390,394
+EfficientNetB0,RGB,1280,418.2,1.8,415,420
+MobileNetV2,Grayscale,1280,311.6,1.4,309,313
+MobileNetV2,RGB,1280,324.2,1.2,323,326
+ResNet50,Grayscale,2048,283.0,1.5,281,285
+ResNet50,RGB,2048,308.2,1.0,307,310

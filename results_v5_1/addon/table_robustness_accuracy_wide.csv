@@ -1,0 +1,18 @@
+﻿group,perturbation,Hybrid RGB+EfficientNetB0+SVM,Fine-tuned MobileNetV2,Fine-tuned EfficientNetB0,Fine-tuned ResNet50
+Reference,Original,98.56,99.63,99.13,99.37
+Illumination,Brightness −40 %,96.37,99.38,98.31,97.56
+Illumination,Brightness −20 %,97.81,99.63,98.69,99.12
+Illumination,Brightness +20 %,95.06,97.0,96.81,95.62
+Illumination,Brightness +40 %,78.07,79.63,78.95,75.57
+Illumination,Contrast −30 %,96.75,99.06,97.94,98.81
+Illumination,Contrast +30 %,92.69,96.5,95.31,94.0
+Color,"Warm color cast (R+10 %, B−10 %)",97.63,97.19,96.44,89.18
+Color,"Cool color cast (R−10 %, B+10 %)",94.57,72.13,84.44,87.23
+Camera,Gaussian blur (σ = 1 px),90.19,93.12,97.37,94.69
+Camera,Gaussian blur (σ = 2 px),60.43,62.55,62.0,77.78
+Camera,Gaussian noise (σ = 10),50.38,43.25,54.8,42.88
+Camera,JPEG quality 30,73.5,64.99,77.58,82.14
+Orientation,Rotation 90°,93.44,96.5,97.75,97.12
+Orientation,Rotation 180°,99.0,99.56,99.06,99.81
+Background,Gray background (128),92.69,98.5,90.27,97.68
+Background,White background (255),91.25,82.75,76.75,72.83

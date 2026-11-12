@@ -1,0 +1,19 @@
+﻿model,acc,f1_macro,mcc,n_runs
+RGB+EfficientNetB0+SVM,98.52 ± 0.85,98.49 ± 0.87,0.9699 ± 0.0174,5
+RGB+MobileNetV2+SVM,97.48 ± 0.80,97.42 ± 0.82,0.9485 ± 0.0164,5
+Grayscale+EfficientNetB0+SVM,97.05 ± 0.47,96.97 ± 0.48,0.9398 ± 0.0097,5
+RGB+ResNet50+SVM,96.87 ± 0.70,96.80 ± 0.71,0.9363 ± 0.0139,5
+Grayscale+MobileNetV2+SVM,96.74 ± 1.45,96.67 ± 1.49,0.9335 ± 0.0298,5
+Grayscale+ResNet50+SVM,95.88 ± 0.66,95.78 ± 0.67,0.9159 ± 0.0134,5
+RGB+EfficientNetB0+KNN,94.83 ± 1.66,94.75 ± 1.69,0.8961 ± 0.0334,5
+Grayscale+EfficientNetB0+KNN,92.81 ± 1.69,92.66 ± 1.70,0.8539 ± 0.0342,5
+Grayscale+MobileNetV2+KNN,92.37 ± 1.96,92.19 ± 2.00,0.8441 ± 0.0400,5
+RGB+MobileNetV2+KNN,91.51 ± 2.55,91.29 ± 2.61,0.8261 ± 0.0524,5
+RGB+ResNet50+KNN,91.21 ± 1.53,90.93 ± 1.56,0.8202 ± 0.0318,5
+Grayscale+ResNet50+KNN,90.84 ± 1.98,90.57 ± 2.00,0.8127 ± 0.0408,5
+RGB+EfficientNetB0+RF,89.73 ± 1.82,89.21 ± 1.94,0.7941 ± 0.0371,5
+Grayscale+MobileNetV2+RF,89.24 ± 1.70,88.79 ± 1.81,0.7811 ± 0.0356,5
+RGB+MobileNetV2+RF,88.93 ± 2.54,88.40 ± 2.72,0.7765 ± 0.0514,5
+RGB+ResNet50+RF,88.63 ± 1.09,88.12 ± 1.24,0.7692 ± 0.0206,5
+Grayscale+ResNet50+RF,87.64 ± 1.71,87.15 ± 1.84,0.7472 ± 0.0348,5
+Grayscale+EfficientNetB0+RF,87.58 ± 2.68,86.80 ± 3.00,0.7531 ± 0.0507,5
